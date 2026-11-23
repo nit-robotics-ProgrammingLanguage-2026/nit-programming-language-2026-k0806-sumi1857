@@ -7,7 +7,7 @@ int main(void)
     double val;
     int ipart;
     double fpart;
-    scanf("%f", &val);
+    scanf("%lf", &val);
     
     split_double(val, &ipart, &fpart);
     
